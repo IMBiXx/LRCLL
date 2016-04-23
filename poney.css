@@ -32,3 +32,7 @@ a.sneakylink:link
 h1 {
 	font-family: Comic Sans MS;
 }
+
+h3 {
+	cursor: wait;
+}
