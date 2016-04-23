@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Londrina+Shadow);
+
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background: #2A363B;
+	overflow:hidden;
+}
+
+h1,
+h2 {
+	z-index: 1;
+	color: #F9F2E7;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: 0;
+}
+
+h1 {
+	font-size: 1em;
+	text-align: center;
+	font-family: 'Comic sans MS', Arial, sans-serif;;
+	font-weight: lighter;
+	margin-top: 5%;
+	color: pink;
+}
+
+h2 {
+	font-size: 2.4em;
+	text-align: right;
+	font-family: 'Londrina Shadow';
+	padding-right: 15px;
+	color: #a0ff73;
+}
+
+#chloe {
+	width: 80px;
+  height: 100px;
+	background: url('images/chloruredesodium.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+#chloe:hover {
+	cursor: pointer;
+}
